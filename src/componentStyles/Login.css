@@ -1,0 +1,73 @@
+.loginContainer{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    height: 100vh;
+}
+.loginElements{
+    display: grid;
+    align-items: center;
+}
+.inpDialog{
+    font-size: 33px;
+    text-align: center;
+    margin: 15px 0;
+    color: #fff;
+}
+.loginForm{
+    display: grid;
+}
+.inpField{
+    font-size: 24px;
+    margin: 0.9rem 0;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px 0;
+}
+.submitBtn{
+    max-width: fit-content;
+    display: grid;
+    justify-self: center;
+    font-size: 20px;
+    margin-top: 1.2rem;
+    padding: 8px 12px;
+    background: #0b61b7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.submitBtn:hover{
+    cursor: pointer;
+    color: #0b61b7;
+    background: #fff;
+}
+.passwordShow{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: fit-content;
+    justify-self: flex-end;
+    background: #fff;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+.passInpShow{
+    font-size: 12px;
+    background: #fff;
+    border: none;
+    color: #0b61b7;
+    border: none;
+}
+.passInpShow:hover{
+    background: #fff;
+    color: #0b61b7;
+    cursor: pointer;
+}
+.checkBox{
+    width: 28px;
+    border: none;
+    background: #fff;
+}

@@ -1,0 +1,5 @@
+.jobCard {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  background: #0b61b7;
+}

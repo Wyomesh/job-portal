@@ -1,0 +1,12 @@
+.jobFilter{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-evenly;
+}
+.role,.type,.location{
+    display: grid;
+    max-width: fit-content;
+}
+.applyBtn{
+    max-width: fit-content;
+}
